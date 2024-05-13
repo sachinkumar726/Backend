@@ -10,7 +10,7 @@ const loginRouter = require('./routes/login');
 const registrationRouter = require('./routes/register'); // Import the registration router
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 10000;
 
 app.use(bodyParser.json());
 app.use(cors());
